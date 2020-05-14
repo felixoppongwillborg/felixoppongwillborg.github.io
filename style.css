@@ -1,3 +1,8 @@
+body {
+    background-color: black;
+
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -10,12 +15,13 @@ ul {
     float: left;
   }  
   li a {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 12px;
   }
  
   .fit {
@@ -39,8 +45,9 @@ ul {
       margin: 0;
       padding: 0;
       overflow: hidden;
-      font-family: Arial;
+      font-family: Arial, Helvetica, sans-serif;
       text-align: center;
+      font-size: 12px;
   }
 
   a {
