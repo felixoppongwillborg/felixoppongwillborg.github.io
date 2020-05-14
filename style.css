@@ -31,3 +31,20 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  footer{
+      background-color: black;
+      color: white;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family: Arial;
+      text-align: center;
+  }
+
+  a {
+      color: white;
+
+
+}
