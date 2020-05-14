@@ -3,21 +3,31 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: grey;
+    background-color:black;
   }
   
   li {
     float: left;
   }  
   li a {
+    font-family: Arial;
     display: block;
-    color: darkgray;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-
-  li a:hover {
-    background-color: white;
+ 
+  .fit {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .centered {
+    font-family: Impact;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
